@@ -1,0 +1,10 @@
+/* (p) type selector- matches any element with this name*/
+/*( * )universal selector- selects literally everything*/
+/* (#blue) id selector- selects the html element with this ID atribute*/
+/* (.classname) class selector- selsects the matching class attribute ( <p id="blue">) */
+/* child selector selects and item that is a child of something else ( p> a{} )*/
+/*descendant selector*/
+
+p>a {
+    color:rgb(64, 226, 43);
+}
